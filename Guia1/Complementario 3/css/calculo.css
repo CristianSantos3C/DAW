@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: rgba(19, 134, 169, 0.822);
+}
+header h1 {
+    margin: 32px auto;
+	color: rgb(21, 19, 19);
+	font: Bold 3.2em Tahoma,Helvetica,"Liberation Sans",sans-serif;
+	text-align:center;
+	text-shadow: 0 0 2px #ccc,
+             -1px -1px 0 hsl(80, 70%, 35%),
+             -2px -2px 1px hsl(80, 70%, 35%),
+             -2px -2px 2px hsl(80, 10%, 15%);
+}
+.back-button {
+	background-color: rgb(26, 222, 232); /* #0960C9 */
+	color: rgb(9, 9, 10);
+	display: block;
+	font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: Bold;
+	height: 50px;
+	margin: 32px auto;
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 24%;
+    border-radius: 15px;
+}
+.back-button:hover {
+	background-color: rgba(148, 84, 227, 0.75);
+	color: #fff;
+	text-decoration: none;
+}
