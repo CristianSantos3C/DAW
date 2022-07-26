@@ -1,0 +1,37 @@
+.calcu{
+   
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(40, 218, 143);
+    width: 590px;
+    height: 500px;
+    border-radius: 15px;
+}
+.calcu td button{
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+#resultado{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}

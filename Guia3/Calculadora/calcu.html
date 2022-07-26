@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form name="calculadora">
+        <h1>Calculadora</h1>
+        <h4>Ingresar una operación</h4>
+        <input type="text" id="resultado" value="0">
+        <br>
+        <br>
+        <input type="button"  value="back" onclick="backspace()" />
+        <input type="button"  value="CE" onclick="borrador()" />
+        <input type="button"  value="C" onclick="borradoTotal()" />
+        <br>
+        <input type="button" id="siete" value="7">
+        <input type="button" id="ocho" value="8" onclick="numero('8')" />
+        <input type="button" id="nueve" value="9" onclick="numero('9')" />
+        <input type="button" id="dividir" value="/" onclick="dividir('/')"  />
+        <input type="button" value="sqrt" onclick="raizc()" />
+        <br>
+        <input type="button" id="cuatro" value="4" onclick="numero('4')" />
+        <input type="button" id="cinco" value="5" onclick="numero('5')" />
+        <input type="button" id="seis" value="6" onclick="numero('6')" />
+        <input type="button" id="multipli" value="*" onclick="por('*')"  />
+        <input type="button" value="%" onclick="porcentaje()" />
+        <br>
+        <input type="button" id="uno" value="1" onclick="numero('1')" />
+        <input type="button" id="dos" value="2" onclick="numero('2')" />
+        <input type="button" id="tres" value="3" onclick="numero('3')" />
+        <input type="button" id="resta" value="-" onclick="por('-')"  />
+        <input type="button" value="1/x" onclick="inver()" />
+        <br>
+        <input type="button" id="cero" value="0" onclick="numero('0')" />
+        <input type="button"  value="+/-" onclick="opuesto()" />
+        <input type="button"  id="cuadra" value="x2" onclick="numero('cuadra')" />
+        <input type="button" id="suma" value="+" onclick="sumar('+')"  />
+        <input type="button" id="igua" value="=" onclick="igual()" />
+
+    </form>
+</body>
+<script src="js/calcu.js"></script>
+</html>
